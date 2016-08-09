@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 常用颜色-->
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="topbar_bg">#4673ff</color>
+    <color name="news_bar_defult">#4673ff</color>
+    <color name="news_bar_select">#ffbd36</color>
+    <color name="touming">#00000000</color>
+    <color name="loading">#4673ff</color>
+    <color name="Red_700">#ffc53929</color>
+    <color name="Red_800">#ffb93221</color>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+</resources>

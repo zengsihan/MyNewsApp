@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <app.dinus.com.loadingdrawable.LoadingView
+        android:id="@+id/balloon_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffd4d9da"
+        app:loading_renderer="BalloonLoadingRenderer">
+    </app.dinus.com.loadingdrawable.LoadingView>
+    
+    <com.zsh.xuexi.newsecondapp.view.MyTextView
+        android:text="正在开启新闻之旅..."
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

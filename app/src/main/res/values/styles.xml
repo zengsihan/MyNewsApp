@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Toolbar颜色-->
+        <item name="colorPrimary">@color/Indigo_colorPrimary</item>
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+        <item name="android:listDivider">@color/divider</item>
+
+    </style>
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+
+    <!--<style name="theme_1" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#2661dd</item>-->
+    <!--</style>-->
+    <!--<style name="theme_2" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#5edd34</item>-->
+    <!--</style>-->
+    <!--<style name="theme_3" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#dd4a43</item>-->
+    <!--</style>-->
+    <!--<style name="theme_4" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#ddd65d</item>-->
+    <!--</style>-->
+    <!--<style name="theme_5" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#ffdfbe</item>-->
+    <!--</style>-->
+    <!--<style name="theme_6" parent="@android:style/Theme.Black">-->
+        <!--<item name="top_bg">#a0f8ff</item>-->
+    <!--</style>-->
+</resources>

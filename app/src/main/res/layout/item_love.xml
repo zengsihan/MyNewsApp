@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:background="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/lvitem_two_iv"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+            <TextView
+                android:id="@+id/lvitem_two_tv_text"
+                android:layout_toRightOf="@id/lvitem_two_iv"
+                android:layout_alignTop="@id/lvitem_two_iv"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/lvitem_two_tv_time"
+                android:gravity="right"
+                android:layout_toRightOf="@id/lvitem_two_iv"
+                android:layout_alignBottom="@id/lvitem_two_iv"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
